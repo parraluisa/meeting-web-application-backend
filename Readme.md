@@ -36,17 +36,21 @@ MongoDB Compass es una herramienta gráfica para gestionar tu base de datos Mong
    - **macOS**: Abre la carpeta de Aplicaciones y haz clic en "MongoDB Compass".
    - **Linux**: Ejecuta `mongodb-compass` desde la terminal o desde el menú de aplicaciones.
 
+## Instalación y ejecución repositorio
+
 1. Clona este repositorio:
    ```bash
    git clone <URL_DEL_REPOSITORIO>
    cd meeting-room-backend
 
 2. Instala las dependencias:
+   ```bash
     npm install
 
-3. Crea un archivo .env en la raíz del proyecto con las siguientes variables:
+4. Crea un archivo .env en la raíz del proyecto con las siguientes variables:
+   ```bash
     MONGO_URI=mongodb://localhost:27017/meeting-web-application
     PORT=3001
-4. Inicia el servidor:
+5. Inicia el servidor:
     node index.js
 
